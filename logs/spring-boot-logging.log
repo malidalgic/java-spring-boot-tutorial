@@ -1,0 +1,14 @@
+2022-08-14 18:53:36,538 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogApplication using Java 11.0.15 on DESKTOP-P3A6F4P with PID 45360 (C:\java-spring-boot\spring-examples\spring-boot-logging\target\classes started by malidalgic in C:\java-spring-boot\spring-examples)
+2022-08-14 18:53:36,542 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-08-14 18:53:38,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-08-14 18:53:38,210 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-14 18:53:38,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-14 18:53:38,451 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-14 18:53:38,452 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1836 ms
+2022-08-14 18:53:39,101 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-14 18:53:39,123 INFO org.springframework.boot.StartupInfoLogger [main] Started LogApplication in 3.56 seconds (JVM running for 5.375)
+2022-08-14 18:54:08,074 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-14 18:54:08,077 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-14 18:54:08,091 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2022-08-14 18:54:08,260 INFO com.solution.logging.api.LogEndpoint [http-nio-8080-exec-1] get details methodu basladi
+2022-08-14 18:54:08,261 DEBUG com.solution.logging.api.LogEndpoint [http-nio-8080-exec-1] internalLogDetail methodu basladi

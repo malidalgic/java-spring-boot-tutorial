@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.solution</groupId>
+    <artifactId>spring-examples</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-mongo-rest-api</module>
+        <module>spring-elasticsearch</module>
+        <module>spring-datajpa-postresql</module>
+        <module>spring-boot-api-doc</module>
+        <module>spring-boot-rabbitmq</module>
+        <module>spring-boot-dockerization</module>
+        <module>spring-boot-aop</module>
+        <module>spring-boot-graphql</module>
+        <module>spring-boot-rest-template</module>
+        <module>spring-redis-cache</module>
+        <module>spring-boot-websocket</module>
+        <module>spring-boot-pagination</module>
+        <module>spring-boot-events</module>
+        <module>spring-boot-gridfs-fileupload</module>
+        <module>spring-boot-kafka</module>
+        <module>spring-boot-flyway</module>
+        <module>spring-boot-versioning</module>
+        <module>spring-boot-exception-handling</module>
+        <module>spring-hello-world</module>
+        <module>spring-boot-hazelcast-cache</module>
+        <module>spring-boot-webflux-mongo</module>
+        <module>spring-boot-logging</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>
